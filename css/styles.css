@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: Quick-Silver;
+  src: url(../fonts/Quicksilver.ttf);
+}
+
+@font-face {
+  font-family: Quick-Silver-Italic;
+  src: url(../fonts/Quicksilver\ Italic.ttf);
+}
+
+
+#projects{
+  scroll-margin-top: 90px;
+}
+
+#about-us{
+  scroll-margin-top: 130px;
+}
+
+#hero {
+  background-color: #E1C340;
+  height: 100px;
+  font-family: 'Quick-Silver-Italic', sans-serif;
+}
+
+#navbar{
+  
+}
+
+@media (max-width: 767.5px) {
+  #BaAThumbnail {
+    display: none !important;
+  }
+
+  .help {
+    display: none !important;
+  }
+
+  #hero {
+    height: 180px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  #hero {
+    height: 190px;
+  }
+}
+
+
+
+
+#header {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+@media (max-width: 991px) {
+  #header {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
+}
+
+@media (min-width: 991px) {
+  #main {
+    margin-left: 100px;
+  }
+}
+
+
